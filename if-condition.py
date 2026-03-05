@@ -1,3 +1,3 @@
-idade = int (input ("Digite a idade da pessoa: "))
-if idade >= 18:
-    print("maior de idade")
+age = int (input ("Write your age: "))
+if age >= 18:
+    print("Legal age")
