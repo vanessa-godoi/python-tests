@@ -31,3 +31,23 @@ average = sum / quantity
 print("\n Total sum: ", sum)
 print("\n Quantity of values entered: ", quantity)
 print("\n Average value: ", average)
+
+# SCRIPT 3
+
+def readnotes():
+    n=float (input ("Write a note for the student: "))
+    return n
+
+def result(n1,n2):
+    average = (n1 + n2)/2
+    print("Note 1: ", n1)
+    print("Note 2: ", n2)
+    print("Average: ", average, "Result: ", end="")
+    if average >= 7.0:
+        print("Approved")
+    else:
+        print("Not Approved")
+
+a = readnotes()
+b = readnotes()
+result (a,b)
